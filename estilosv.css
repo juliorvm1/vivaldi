@@ -1,4 +1,124 @@
+  /* font-family: "Pacifico"; */
+    /* font-family:"Staatliches";   */
+    /* font-family: "Roboto";  */
+
 body{
+    /* background-color: #8a4af3; */
+    background-color: #e91e63;
+    /* background-color:#f6a5c0; */
+    margin: 0px;
+}
+
+
+header{  
+    font-family: "Roboto"; 
+    text-transform: uppercase;
+    background-color: white;            
+    font-size: 15px; 
+    font-weight: 400;    
+    height: 100px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    position: fixed;
+    z-index: 0; 
+}
+
+
+h1{
+    font-family:"Staatliches";
+    text-align: center;
+}
+
+
+.header ol{
+    height: inherit;
+    display: flex;
+}
+
+ .header ol li{
+    height: inherit;
+    list-style: none;
+    padding: 0px 10px;
+}
+
+.header-menu-link{
+    text-decoration: none;
+    color: black;
+}
+
+figure{
+    margin: 0px;
+}
+
+.hero{
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+    margin-bottom: 50px;
+}
+.hero-subtitle {
+    padding: 100px 20px 100px 100px;
+    font-family: "Pacifico";
+    font-size: 40px;
+    /* color:white; */
+}
+
+.hero-image{
+    padding-top: 100px;
+    padding-right: 100px;
+}
+
+.xhunco{
     background-color: white;
-    
+    border: solid 1px gray;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding:20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 3px 5px 10px #888888;
+}
+
+.xhuncopops-title{
+    font-size: 30px;
+    color:white;
+}
+
+
+.xhunco-detail-title{
+    font-family: "Staatliches";
+    font-size: 30px;
+}
+
+.xhunco-detail-description{
+    font-family: "Roboto";
+    font-size: 20px;
+    text-align: justify;
+    line-height: 1.2;
+}
+
+.xhunco-detail{
+    width: 500px;
+}
+
+ .xhunco-image{
+     width: 350px;
+ }
+
+
+.container{
+    /* border: 5px solid red; */
+    width: 1000px;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;    
 }
