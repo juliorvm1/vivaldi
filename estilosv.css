@@ -4,7 +4,7 @@
 
 body{
     /* background-color: #8a4af3; */
-    background-color: #e91e63;
+    background-color:white;
     /* background-color:#f6a5c0; */
     margin: 0px;
 }
@@ -73,6 +73,11 @@ figure{
     padding-right: 100px;
 }
 
+.xhuncopops-title{
+    font-size: 30px;
+    color:black;
+}
+
 .xhunco{
     background-color: white;
     border: solid 1px gray;
@@ -85,11 +90,9 @@ figure{
     box-shadow: 3px 5px 10px #888888;
 }
 
-.xhuncopops-title{
-    font-size: 30px;
-    color:white;
+.xhunco-detail{
+    width: 500px;
 }
-
 
 .xhunco-detail-title{
     font-family: "Staatliches";
@@ -103,14 +106,9 @@ figure{
     line-height: 1.2;
 }
 
-.xhunco-detail{
-    width: 500px;
-}
-
  .xhunco-image{
      width: 350px;
  }
-
 
 .container{
     /* border: 5px solid red; */
