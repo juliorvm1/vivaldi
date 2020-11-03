@@ -246,6 +246,24 @@ figure{
     /* text-align: center;    */
 }
 
+.footer{
+    background-color: #0087ff;
+    color: white;
+    /* border: solid 1px gray;
+    border-radius: 10px;
+    margin-bottom: 15px; */
+    padding:20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    /* box-shadow: 3px 5px 10px #888888; */
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+}
 
 .container{
     /* border: 5px solid red; */
